@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">مەتەڵی کوردی</string>
+    <string name="phone_number_here"> Phone Number Here</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Wallam">بۆ وەڵامی ئەم مەتەڵه کلیک بکه</string>
+    <string name="feedback_email_for_developer">وتووێژ لەگەڵ خاوەنی ئاپ</string>
+    <string name="more_app_compani">بەرنامه چاکەکانی دیکەی ئێمه</string>
+    <string name="share_to_persent_other">ناردنی ئەم بەرنامەیه بو دوستان</string>
+    <string name="rate_for_app">دانانی ڕا و بۆچوون و ئەستێره</string>
+    <string name="more">More | زیاتر</string>
+    <string name="about_us">لە بارەی داهێنەر</string>
+    <string name="about">ئامانجی سەرەکی ئێمه بەس خزمەت به ناساندن و زیندو هێشتنەوەی فەرهەنگو ئەدەبی کوردیه
+   \n\n
+brooskaSoft
+</string>
+
+<!--    <string name="Banner_ID_One">ca-app-pub-3999423393077835/3912160473</string>-->
+<!--    <string name="Banner_ID_Two">ca-app-pub-3999423393077835/9892733551</string>-->
+<!--    <string name="Banner_ID_Three">ca-app-pub-3999423393077835/4173503014</string>-->
+<!--    <string name="Banner_ID_Four">ca-app-pub-3999423393077835/8004936816</string>-->
+<!--    <string name="Banner_ID_About_One">ca-app-pub-3999423393077835/1881601346</string>-->
+<!--    <string name="Banner_ID_About_Two">ca-app-pub-3999423393077835/1606269177</string>-->
+
+    <string name="Matal_kurdi">مەتەڵی کوردی</string>
+    <string name="todo">TODO</string>
+</resources>

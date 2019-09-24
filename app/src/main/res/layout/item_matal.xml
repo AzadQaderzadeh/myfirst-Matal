@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    tools:ignore="MissingPrefix"
+    android:layout_marginTop="10dp"
+    android:id="@+id/matal_item_id">
+    <androidx.cardview.widget.CardView
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        app:cardBackgroundColor="@color/white_color"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/text_color"
+            android:text="Contact Name"
+            android:fontFamily="@font/peshang"
+
+            android:id="@+id/matal_name"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number_here"
+            android:id="@+id/wallami_matal"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        app:cardBackgroundColor="@color/white_color"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/text_color"
+            android:fontFamily="@font/peshang"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Wallam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

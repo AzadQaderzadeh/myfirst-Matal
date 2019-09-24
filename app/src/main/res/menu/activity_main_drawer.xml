@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/email_black"
+            android:title="@string/feedback_email_for_developer" />
+        <item
+            android:id="@+id/nav_other_app"
+            android:icon="@drawable/apps_black"
+            android:title="@string/more_app_compani" />
+        <item
+            android:id="@+id/nav_present_to_other"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share_to_persent_other" />
+        <item
+            android:id="@+id/nav_star_comment"
+            android:icon="@drawable/star_black"
+            android:title="@string/rate_for_app" />
+    </group>
+
+    <item android:title="ارتباط">
+
+        <group
+            android:id="@+id/grp_2"
+            android:checkableBehavior="none">
+            <item
+                android:id="@+id/About_Us"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about_us" />
+        </group>
+
+    </item>
+
+</menu>
